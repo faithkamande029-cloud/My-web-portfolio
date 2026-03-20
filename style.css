@@ -1,0 +1,41 @@
+*, 
+::before, 
+::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    align-items: center;
+}
+header{
+    display: flex;
+    background-color: rgb(215, 194, 208);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 2rem;
+}
+.navbar ul{
+    list-style-type: none; 
+    display: flex;
+}
+.navbar a{
+    background-color: antiquewhite;
+    text-decoration: none;
+    padding: 15px;
+    color: hotpink;
+}
+.navbar a:hover{
+    background-color: rgb(139, 105, 128) ;
+}
+.Intro{
+    background-color: rgb(249, 203, 242);
+}
+.About{
+    background-color: rgb(226, 135, 227);
+}
+.Hobbies{
+    background-color: rgb(202, 189, 203);
+}
