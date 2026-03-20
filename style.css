@@ -6,12 +6,12 @@
     box-sizing: border-box;
 }
 body{
-    padding-left: 35px;
-    max-width: 1460px;
+    max-width: 1490px;
     max-height: 1070px;
    
 }
 header{
+    /*navigation*/
     display: flex;
     background-color: rgb(250, 164, 181);
     align-items: center;
@@ -33,34 +33,51 @@ header{
     background-color: rgb(248, 183, 124) ;
 }
 .intro{
+    /*parent container: home*/
     background-color: rgb(233, 225, 170);
     padding: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:100px;  
+    gap:30px;  
     height: 500px;
 }
 .my-name{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
+}
+button a{
+    text-decoration: none;
+    color: rgb(241, 68, 163);
+    font-size: 15px;
+}
+button:hover{
+    background-color: rgb(248, 183, 124);
 }
 
 .profile-img{
-    height: 100px;
+    width: 50%;
+    max-width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto; 
 }
 .About{
-    height: 400px;
+    /*parent div: About*/
+    height: 450px;
     background-color: rgb(239, 187, 216);
-    padding: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px;
+    gap: 180px;
 }
 .overview{
-    width: 550px;
+    width: 600px;
+}
+.overview p{
+    margin-bottom: 15px;
+    line-height: 1.1;
 }
 .about-img{
     width: 300px;
@@ -71,7 +88,7 @@ header{
 .Hobbies{
     background-color: #c3c7f4;
     padding: 40px;
-    height: 900px;
+    height: 950px;
 }
 
 .grid-container{
@@ -83,7 +100,7 @@ header{
     grid-template-areas: 
     "image-1 image-3 image-3 image-7"
     "image-2 image-4 image-5 image-6"; 
-    /*grid arrangement */
+    /*grid image arrangement */
 }
 .grid-container img{
     width: 100%;
@@ -93,20 +110,24 @@ header{
 .contact-info{
     height: 200px;
     padding: 40px;
-    background-color: rgb(195, 164, 118);
+    background-color: rgb(194, 176, 219);
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* color: aliceblue; */
     list-style-type: none;
 }
 .contact-info a{
     text-decoration: none;
-    color: #662e03;
+    color: #cf08c5;
 }
 .contact{
     background-color: azure;
     width: 600px;
-    padding: 30px;
-    
+    padding: 40px;
+    padding-top: 0;
+    padding-bottom: 10px;
+    text-align: center;   
+}
+.contact ul{
+    list-style-type: none;
 }
