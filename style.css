@@ -40,7 +40,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:10px;  
+    gap:200px;  
     height: 500px;
 }
 .my-name{
@@ -60,17 +60,20 @@ button:hover{
 .profile-img{
     width: 150px;
     border-radius: 50%;
-    display: block; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
 }
 .About{
     /*parent div: About*/
     height: 450px;
     background-color: rgb(239, 187, 216);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     gap: 200px;
-    padding-right: 10px;
+    padding-right: 5px;
+    
 }
 .overview{
     width: 600px;
