@@ -46,11 +46,11 @@ header{
 .my-name{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 10px; /*spaces elements*/
 }
 button a{
     text-decoration: none;
-    color: rgb(241, 68, 163);
+    color: rgb(219, 19, 82);
     font-size: 15px;
 }
 button:hover{
@@ -133,6 +133,3 @@ button:hover{
 .contact ul{
     list-style-type: none; /* Removes bullet points  */
 }
-/* @media(max-width:768px){
-    .intro
-} */
